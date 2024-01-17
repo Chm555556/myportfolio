@@ -461,7 +461,7 @@ section .title::after{
     align-items: center;
 }
 .contact .contact-content .row .info{
-    margin-left: 30px;
+    /* margin-left: 10px; */
 }
 .contact .contact-content .row i{
     font-size: 25px;
@@ -677,5 +677,16 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .icons{
+        overflow: hidden;
+
+    }
+    .ins{
+       overflow: hidden;
+       
+    }
+    .fb{
+        overflow: hidden;
     }
 }
