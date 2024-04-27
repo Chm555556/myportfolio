@@ -289,7 +289,7 @@ section .title::after{
     width: 310px;
     object-fit: cover;
     /* border-radius: 50%; */
-    border: 5px solid crimson;
+    border: 5px solid  #222;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover img{
