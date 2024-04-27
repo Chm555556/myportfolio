@@ -254,6 +254,7 @@ section .title::after{
 }
 
 /* services section styling */
+
 .services, .teams{
     color:#fff;
     background: #111;
@@ -279,6 +280,24 @@ section .title::after{
 .services .serv-content .card:hover{
     background: crimson;
 }
+
+/*  */
+
+.services .serv-content .card img{
+    top: 0px;
+    height: 200px;
+    width: 310px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover img{
+    border-color: #fff;
+}
+
+/*  */
+
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
@@ -297,6 +316,9 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.services p{
+    text-align: justify;
 }
 
 /* skills section styling */
@@ -375,6 +397,7 @@ section .title::after{
 }
 
 /* teams section styling */
+
 .teams .title::after{
     content: "who with me";
 }
