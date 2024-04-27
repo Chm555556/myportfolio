@@ -16,14 +16,16 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Itians","Student","Learner","Programmer","Beginner", "Developer", "Fresher", "Designer", "Newcomer","Freelancer"],
+        //strings: ["Itians","Student","Learner","Programmer","Beginner", "Developer", "Fresher", "Designer", "Newcomer","Freelancer"],
+        strings: ["Learner","Frontend Developer","Web UI Developer","Web Developer","Programmer","Frontend Architect", "Backend Developer", "Backend Programmer", "Designer", "API Developer","Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Itians","Student","Learner","Programmer","Beginner", "Developer", "Fresher", "Designer", "Newcomer","Freelancer"],
+        // strings: ["Itians","Student","Learner","Programmer","Beginner", "Developer", "Fresher", "Designer", "Newcomer","Freelancer"],
+        strings: ["Learner","Frontend Developer","Web UI Developer","Web Developer","Programmer","Frontend Architect", "Backend Developer", "Backend Programmer", "Designer", "API Developer","Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
