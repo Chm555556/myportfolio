@@ -128,9 +128,9 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    /* color: #fff;
-    font-size: 23px; */
-    /* cursor: pointer; */
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
     display: none;
 }
 /* .scroll-up-btn{
